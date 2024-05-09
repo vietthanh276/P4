@@ -1,0 +1,12 @@
+simulation.cpp
+Viet Thanh Nguyen
+2/29/24
+This program will use queues to model a coffeeshop with 1 or more check-out lines and
+cashiers. Each customer will have 4 values associated with them: ID, arrival time, order start
+time and completed time. At random intervals, customers will enter the store and join the queue.
+As time goes on, customers will reach the front of the queue and make their purchase before
+leaving the queue. 
+To compile the program, run the command:
+g++ -o run_simulation simulation.cpp shopQueue.cpp customer.h shopQueue.h
+To run the program, run the command:
+./run_simulation seed total_min arrive_prob order_prob queues outputFile
